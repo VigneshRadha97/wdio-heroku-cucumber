@@ -1,3 +1,4 @@
+const { assert } = require("chai");
 const basepage = require("./BasePage");
 
 class LoginPage {
@@ -22,7 +23,13 @@ class LoginPage {
   }
 
   async open() {
-    await basepage.open("https://the-internet.herokuapp.com/logi");
+    try {
+      
+    await basepage.open("https://the-internet.herokuapp.com/login");
+    } catch (error) {
+      console.error();
+      assert.fail();
+    }
   }
 }
 
