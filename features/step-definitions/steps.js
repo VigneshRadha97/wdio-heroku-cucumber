@@ -49,6 +49,7 @@ Then(
     expect(await SecurePage.securePageElement).toHaveTextContaining(
       "Secure Area"
     );
+      await browser.pause(3000);
     } catch (error) {
       console.error();
       assert.fail();
