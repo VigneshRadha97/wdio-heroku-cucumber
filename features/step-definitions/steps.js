@@ -6,7 +6,8 @@ const { assert } = require("chai");
 Given("the user is on login page", async () => {
   try {
     await LoginPage.open();
-    expect(browser).toHaveTitle("The Internets");
+    const title = await browser.getTitle();
+    assert.equal(title, "The Internets", "Page title is not valid");
   } catch (error) {
     console.error();
     assert.fail();
