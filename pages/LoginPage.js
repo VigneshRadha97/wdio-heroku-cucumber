@@ -24,7 +24,6 @@ class LoginPage {
 
   async open() {
     try {
-      
     await basepage.open("https://the-internet.herokuapp.com/login");
     } catch (error) {
       console.error();
