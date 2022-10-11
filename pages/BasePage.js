@@ -1,7 +1,14 @@
+const { assert } = require("chai");
+
 class BasePage {
   async open(path) {
-    await browser.url(path);
-    await browser.maximizeWindow();
+    try {
+      await browser.url(path);
+      await browser.maximizeWindow();
+    } catch (error) {
+      console.error();
+      assert.fail();
+    }
   }
 }
 
