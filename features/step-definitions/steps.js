@@ -7,7 +7,7 @@ Given("the user is on login page", async () => {
   try {
     await LoginPage.open();
     const title = await browser.getTitle();
-    assert.equal(title, "The Internets", "Page title is not valid");
+    assert.equal(title, "The Internet", "Page title is not valid");
   } catch (error) {
     console.error();
     assert.fail();
