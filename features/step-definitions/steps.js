@@ -6,6 +6,7 @@ const { assert } = require("chai");
 Given("the user is on login page", async () => {
   try {
     await LoginPage.open();
+    expect(browser).toHaveTitle("The Internets");
   } catch (error) {
     console.error();
     assert.fail();
@@ -27,7 +28,7 @@ When(
 
 Then("user clicks on the login button", async () => {
   try {
-  await LoginPage.btnlogin.click();
+    await LoginPage.btnlogin.click();
   } catch (error) {
     console.error();
     assert.fail();
@@ -38,17 +39,17 @@ Then(
   "user must navigate to secure area page displaying a message {string}",
   async (successmessage) => {
     try {
-    await (await SecurePage.messageElement).waitForExist();
-    expect(await SecurePage.messageElement).toExist();
-    expect(await SecurePage.messageElement).toHaveTextContaining(
-      successmessage
-    );
+      await (await SecurePage.messageElement).waitForExist();
+      expect(await SecurePage.messageElement).toExist();
+      expect(await SecurePage.messageElement).toHaveTextContaining(
+        successmessage
+      );
 
-    await (await SecurePage.securePageElement).waitForExist();
-    expect(await SecurePage.securePageElement).toExist();
-    expect(await SecurePage.securePageElement).toHaveTextContaining(
-      "Secure Area"
-    );
+      await (await SecurePage.securePageElement).waitForExist();
+      expect(await SecurePage.securePageElement).toExist();
+      expect(await SecurePage.securePageElement).toHaveTextContaining(
+        "Secure Area"
+      );
       await browser.pause(3000);
     } catch (error) {
       console.error();
