@@ -1,0 +1,51 @@
+[ {
+  "uid" : "b576c3a2423feadc",
+  "name" : "Given the user is on login page",
+  "time" : {
+    "start" : 1665467152407,
+    "stop" : 1665467153778,
+    "duration" : 1371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a51753f3f3fe8f6",
+  "name" : "And user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "time" : {
+    "start" : 1665467163975,
+    "stop" : 1665467163976,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "27c9e8cab3bcba9b",
+  "name" : "",
+  "time" : {
+    "start" : 1665467163977,
+    "stop" : 1665467163978,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bf893b836386d7c",
+  "name" : "Then user clicks on the login button",
+  "time" : {
+    "start" : 1665467153962,
+    "stop" : 1665467163975,
+    "duration" : 10013
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3aa3ce7f78c8022b",
+  "name" : "When user logs in using username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
+  "time" : {
+    "start" : 1665467153778,
+    "stop" : 1665467153961,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

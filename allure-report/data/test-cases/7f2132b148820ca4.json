@@ -1,0 +1,366 @@
+{
+  "uid" : "7f2132b148820ca4",
+  "name" : "And user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "fullName" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials.And user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "historyId" : "ec3d4664602afb2a92ea3ba8ba5b221a",
+  "time" : {
+    "start" : 1665465834782,
+    "stop" : 1665465835080,
+    "duration" : 298
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1665465834783,
+        "stop" : 1665465834820,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63863e1d239c63c8",
+        "name" : "Request",
+        "source" : "63863e1d239c63c8.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "fe3ea7c3ac279a97",
+        "name" : "Response",
+        "source" : "fe3ea7c3ac279a97.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1665465834825,
+        "stop" : 1665465834857,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f7eca7aacbcf463",
+        "name" : "Request",
+        "source" : "5f7eca7aacbcf463.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "c1e073b7fc0d28e0",
+        "name" : "Response",
+        "source" : "c1e073b7fc0d28e0.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1665465834863,
+        "stop" : 1665465834885,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b56b73fa34cbcc",
+        "name" : "Request",
+        "source" : "b56b73fa34cbcc.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "a9bc4b411b2e46e9",
+        "name" : "Response",
+        "source" : "a9bc4b411b2e46e9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1665465834900,
+        "stop" : 1665465835018,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1665465834907,
+          "stop" : 1665465834928,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f3cf273788782ede",
+          "name" : "Request",
+          "source" : "f3cf273788782ede.json",
+          "type" : "application/json",
+          "size" : 50
+        }, {
+          "uid" : "2ba60c0e6c981c78",
+          "name" : "Response",
+          "source" : "2ba60c0e6c981c78.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1665465834937,
+          "stop" : 1665465834971,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/element/bf3a94e7-81ec-4265-9a03-3efcc3aec0b0/text",
+          "time" : {
+            "start" : 1665465834943,
+            "stop" : 1665465834952,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d2656172aeedbb56",
+            "name" : "Response",
+            "source" : "d2656172aeedbb56.json",
+            "type" : "application/json",
+            "size" : 93
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ {
+          "uid" : "a4eff10bab4a25c6",
+          "name" : "Request",
+          "source" : "a4eff10bab4a25c6.json",
+          "type" : "application/json",
+          "size" : 76
+        }, {
+          "uid" : "86ef08a8c27c2191",
+          "name" : "Response",
+          "source" : "86ef08a8c27c2191.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1665465834975,
+          "stop" : 1665465834999,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b9155562f91dc443",
+          "name" : "Request",
+          "source" : "b9155562f91dc443.json",
+          "type" : "application/json",
+          "size" : 76
+        }, {
+          "uid" : "663c6836830d479d",
+          "name" : "Response",
+          "source" : "663c6836830d479d.json",
+          "type" : "application/json",
+          "size" : 36
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "4707f09e412dec1d",
+        "name" : "Request",
+        "source" : "4707f09e412dec1d.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "1bb62e92db451e9",
+        "name" : "Response",
+        "source" : "1bb62e92db451e9.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1665465835022,
+        "stop" : 1665465835045,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8de25a6d22202f9",
+        "name" : "Request",
+        "source" : "f8de25a6d22202f9.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "90ceab772fe819d3",
+        "name" : "Response",
+        "source" : "90ceab772fe819d3.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1665465835049,
+        "stop" : 0,
+        "duration" : -1665465835049
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1665465835055,
+          "stop" : 1665465835073,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3cce67bd994e7605",
+          "name" : "Request",
+          "source" : "3cce67bd994e7605.json",
+          "type" : "application/json",
+          "size" : 76
+        }, {
+          "uid" : "52c9d94b7dd96e46",
+          "name" : "Response",
+          "source" : "52c9d94b7dd96e46.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET /session/:sessionId/element/868473d1-a22e-4d84-911e-8da45b8a4293/text",
+        "time" : {
+          "start" : 1665465835078,
+          "stop" : 0,
+          "duration" : -1665465835078
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "68e4e589e2617bd1",
+        "name" : "Request",
+        "source" : "68e4e589e2617bd1.json",
+        "type" : "application/json",
+        "size" : 76
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 20,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 12
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And user must navigate to secure area page displaying a message \"You logged into a secure area!\""
+  }, {
+    "name" : "package",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-106.0.5249.103"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f2132b148820ca4.json",
+  "parameterValues" : [ "chrome-106.0.5249.103" ]
+}

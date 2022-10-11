@@ -1,0 +1,74 @@
+{
+  "uid" : "3a51753f3f3fe8f6",
+  "name" : "And user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "fullName" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials.And user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "historyId" : "ec3d4664602afb2a92ea3ba8ba5b221a",
+  "time" : {
+    "start" : 1665467163975,
+    "stop" : 1665467163976,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And user must navigate to secure area page displaying a message \"You logged into a secure area!\""
+  }, {
+    "name" : "package",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-106.0.5249.103"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f259e3243db1ae15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665467067222,
+        "stop" : 1665467067478,
+        "duration" : 256
+      }
+    }, {
+      "uid" : "7f2132b148820ca4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665465834782,
+        "stop" : 1665465835080,
+        "duration" : 298
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a51753f3f3fe8f6.json",
+  "parameterValues" : [ "chrome-106.0.5249.103" ]
+}

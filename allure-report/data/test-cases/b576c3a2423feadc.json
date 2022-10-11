@@ -1,0 +1,126 @@
+{
+  "uid" : "b576c3a2423feadc",
+  "name" : "Given the user is on login page",
+  "fullName" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials.Given the user is on login page",
+  "historyId" : "82faf01c9a1ceeca3b98ff14049c8dd8",
+  "time" : {
+    "start" : 1665467152407,
+    "stop" : 1665467153778,
+    "duration" : 1371
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1665467152411,
+        "stop" : 1665467153619,
+        "duration" : 1208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "562dec94cf45cdb",
+        "name" : "Request",
+        "source" : "562dec94cf45cdb.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1665467153619,
+        "stop" : 1665467153771,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47344259722db8f1",
+        "name" : "Response",
+        "source" : "47344259722db8f1.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on login page"
+  }, {
+    "name" : "package",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-106.0.5249.103"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c8c11f7ebd8d23e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665467059474,
+        "stop" : 1665467065984,
+        "duration" : 6510
+      }
+    }, {
+      "uid" : "d6a1c578fb74b775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665465828937,
+        "stop" : 1665465833503,
+        "duration" : 4566
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b576c3a2423feadc.json",
+  "parameterValues" : [ "chrome-106.0.5249.103" ]
+}

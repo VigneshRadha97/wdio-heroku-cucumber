@@ -1,0 +1,87 @@
+{
+  "uid" : "d6a1c578fb74b775",
+  "name" : "Given the user is on login page",
+  "fullName" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials.Given the user is on login page",
+  "historyId" : "82faf01c9a1ceeca3b98ff14049c8dd8",
+  "time" : {
+    "start" : 1665465828937,
+    "stop" : 1665465833503,
+    "duration" : 4566
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1665465828943,
+        "stop" : 1665465833501,
+        "duration" : 4558
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "930e63fec0408dc",
+        "name" : "Request",
+        "source" : "930e63fec0408dc.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on login page"
+  }, {
+    "name" : "package",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-106.0.5249.103"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6a1c578fb74b775.json",
+  "parameterValues" : [ "chrome-106.0.5249.103" ]
+}

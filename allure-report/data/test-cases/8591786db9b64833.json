@@ -1,0 +1,150 @@
+{
+  "uid" : "8591786db9b64833",
+  "name" : "Then user clicks on the login button",
+  "fullName" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials.Then user clicks on the login button",
+  "historyId" : "483e2c51ff92aa17e4b9345037c7bf3d",
+  "time" : {
+    "start" : 1665465833588,
+    "stop" : 1665465834782,
+    "duration" : 1194
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1665465833590,
+        "stop" : 1665465833616,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "766411f2ad47b5d0",
+        "name" : "Request",
+        "source" : "766411f2ad47b5d0.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/c5aa82b8-3a83-4cd2-bc2b-7935518ea735/value",
+      "time" : {
+        "start" : 1665465833627,
+        "stop" : 1665465833662,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "123b5e1283ba400f",
+        "name" : "Request",
+        "source" : "123b5e1283ba400f.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/fc6d7a4c-6b04-4aef-9b13-57c04c07c246/value",
+      "time" : {
+        "start" : 1665465833666,
+        "stop" : 1665465833698,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "541858f4c703a9c8",
+        "name" : "Request",
+        "source" : "541858f4c703a9c8.json",
+        "type" : "application/json",
+        "size" : 36
+      }, {
+        "uid" : "18b3ca3ba1447080",
+        "name" : "Response",
+        "source" : "18b3ca3ba1447080.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/b145f958-bfe4-4315-bd1f-170e7749c286/click",
+      "time" : {
+        "start" : 1665465833707,
+        "stop" : 1665465833810,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user clicks on the login button"
+  }, {
+    "name" : "package",
+    "value" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-106.0.5249.103"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8591786db9b64833.json",
+  "parameterValues" : [ "chrome-106.0.5249.103" ]
+}

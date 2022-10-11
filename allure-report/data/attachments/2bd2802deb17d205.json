@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div//child::h2[text()=' Secure Area']"
+}

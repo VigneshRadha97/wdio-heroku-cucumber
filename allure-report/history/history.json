@@ -1,0 +1,98 @@
+{
+  "37a7c0c2027093e489c409af270d3e8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3aa3ce7f78c8022b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665467153778,
+        "stop" : 1665467153961,
+        "duration" : 183
+      }
+    } ]
+  },
+  "ec3d4664602afb2a92ea3ba8ba5b221a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a51753f3f3fe8f6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1665467163975,
+        "stop" : 1665467163976,
+        "duration" : 1
+      }
+    } ]
+  },
+  "82faf01c9a1ceeca3b98ff14049c8dd8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b576c3a2423feadc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665467152407,
+        "stop" : 1665467153778,
+        "duration" : 1371
+      }
+    } ]
+  },
+  "483e2c51ff92aa17e4b9345037c7bf3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bf893b836386d7c",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"#username\" because element wasn't found",
+      "time" : {
+        "start" : 1665467153962,
+        "stop" : 1665467163975,
+        "duration" : 10013
+      }
+    } ]
+  },
+  "c73a750ff23dca3ba5a68c1cfaa18ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27c9e8cab3bcba9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665467163977,
+        "stop" : 1665467163978,
+        "duration" : 1
+      }
+    } ]
+  }
+}

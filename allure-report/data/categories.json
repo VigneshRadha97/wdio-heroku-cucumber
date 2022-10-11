@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: Can't call setValue on element with selector \"#username\" because element wasn't found",
+      "children" : [ {
+        "name" : "Then user clicks on the login button",
+        "uid" : "8bf893b836386d7c",
+        "parentUid" : "eae9cc8e86137d743886540938592d0e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1665467153962,
+          "stop" : 1665467163975,
+          "duration" : 10013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-106.0.5249.103" ]
+      } ],
+      "uid" : "eae9cc8e86137d743886540938592d0e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

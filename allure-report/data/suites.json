@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "This is to test wdio with cucumber framework in \"The Heroku App\": Login heroku using valid credentials",
+    "children" : [ {
+      "name" : "Given the user is on login page",
+      "uid" : "b576c3a2423feadc",
+      "parentUid" : "46b87d39644232ff0e85aa87ae7ea22a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665467152407,
+        "stop" : 1665467153778,
+        "duration" : 1371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-106.0.5249.103" ]
+    }, {
+      "name" : "When user logs in using username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
+      "uid" : "3aa3ce7f78c8022b",
+      "parentUid" : "46b87d39644232ff0e85aa87ae7ea22a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665467153778,
+        "stop" : 1665467153961,
+        "duration" : 183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-106.0.5249.103" ]
+    }, {
+      "name" : "Then user clicks on the login button",
+      "uid" : "8bf893b836386d7c",
+      "parentUid" : "46b87d39644232ff0e85aa87ae7ea22a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1665467153962,
+        "stop" : 1665467163975,
+        "duration" : 10013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-106.0.5249.103" ]
+    }, {
+      "name" : "And user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+      "uid" : "3a51753f3f3fe8f6",
+      "parentUid" : "46b87d39644232ff0e85aa87ae7ea22a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1665467163975,
+        "stop" : 1665467163976,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-106.0.5249.103" ]
+    }, {
+      "name" : "",
+      "uid" : "27c9e8cab3bcba9b",
+      "parentUid" : "46b87d39644232ff0e85aa87ae7ea22a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665467163977,
+        "stop" : 1665467163978,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-106.0.5249.103" ]
+    } ],
+    "uid" : "46b87d39644232ff0e85aa87ae7ea22a"
+  } ],
+  "name" : "suites"
+}
