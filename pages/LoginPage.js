@@ -35,8 +35,8 @@ class LoginPage {
 
   async entervalues(username, password) {
     try {
-      (await LoginPage.txtusername).setValue(username);
-      (await LoginPage.txtpassword).setValue(password);
+      (await this.txtusername).setValue(username);
+      (await this.txtpassword).setValue(password);
     } catch (error) {
       console.error();
       assert.fail();
@@ -45,7 +45,7 @@ class LoginPage {
 
   async clicksignin() {
     try {
-      await LoginPage.btnlogin.click();
+      await this.btnlogin.click();
     } catch (error) {
       console.error();
       assert.fail();
