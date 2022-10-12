@@ -58,3 +58,23 @@ Then(
     }
   }
 );
+
+Then(
+  "user must remain on the same login page displaying a message {string}",
+  async (errormessage) => {
+    try {
+      await (await LoginPage.messageelement).waitForExist();
+      expect(await LoginPage.messageelement).toExist();
+      expect(await LoginPage.messageelement).toHaveTextContaining(errormessage);
+
+      await (await LoginPage.loginpageelement).waitForExist();
+      expect(await LoginPage.loginpageelement).toExist();
+      expect(await LoginPage.loginpageelement).toHaveTextContaining(
+        "Login Page"
+      );
+    } catch (error) {
+      console.error();
+      assert.fail();
+    }
+  }
+);
