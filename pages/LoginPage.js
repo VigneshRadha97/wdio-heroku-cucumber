@@ -71,17 +71,15 @@ class LoginPage {
     }
   }
 
-  async loginerrorcheck(errormessage){
+  async loginerrorcheck(errormessage) {
     try {
-      await (await LoginPage.messageelement).waitForExist();
-      expect(await LoginPage.messageelement).toExist();
-      expect(await LoginPage.messageelement).toHaveTextContaining(errormessage);
+      await (await this.messageelement).waitForExist();
+      expect(await this.messageelement).toExist();
+      expect(await this.messageelement).toHaveTextContaining(errormessage);
 
-      await (await LoginPage.loginpageelement).waitForExist();
-      expect(await LoginPage.loginpageelement).toExist();
-      expect(await LoginPage.loginpageelement).toHaveTextContaining(
-        "Login Page"
-      );
+      await (await this.loginpageelement).waitForExist();
+      expect(await this.loginpageelement).toExist();
+      expect(await this.loginpageelement).toHaveTextContaining("Login Page");
     } catch (error) {
       console.error();
       assert.fail();
