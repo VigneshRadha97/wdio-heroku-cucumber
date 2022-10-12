@@ -1,5 +1,6 @@
 const { assert } = require("chai");
 const basepage = require("./BasePage");
+const SecurePage = require("./SecurePage");
 
 class LoginPage {
   get txtusername() {
